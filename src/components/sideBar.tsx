@@ -1,7 +1,7 @@
 const sideBar = () => {
     return (
         <div>
-
+            <nav></nav>
         </div>
     )
 }

@@ -1,3 +1,5 @@
+import sideBar from "../components/sideBar";
+
 const HomePage = () => {
     return (
         <div>
