@@ -1,0 +1,108 @@
+html {
+    height: 1000px;
+    scroll-behavior: smooth;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 60px;
+    animation: animationNav .2s ease-in-out;
+    animation-timeline: scroll();
+    padding-right: 50px;
+    font-family: "Poppins", sans-serif;
+}
+
+nav .nameApp {
+    position: relative;
+    left: 50px;
+    color:  #9333ea;
+}
+
+nav .searchContent {
+    display: flex;
+    border-radius: 50px;
+    margin-left: 160px;
+}
+
+nav .searchContent img {
+    position: relative;
+    left: 20px;
+    width: 20px;
+    top: 6px;
+    height: 23px;
+    z-index: 99999;
+}
+
+nav .searchContent input {
+    width: 280px;
+    height: 35px;
+    position: relative;
+    right: 17px;
+    padding-left: 50px;
+    background-color: #eaeaeaae;
+    border: none;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+nav .icon {
+    display: flex;
+}
+
+nav .icon button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+nav .icon button img {
+    width: 22px;
+    animation: animationIcon .2s ease-in-out;
+    animation-timeline: scroll();
+}
+
+@keyframes animationNav {
+   0% {
+      width: 100%;
+      height: 60px;
+    }
+    
+    50% {
+       margin-top: 10px;
+       margin-left: 192px;
+       width: 80%;
+       height: 60px;
+       border: 1px solid black;
+       border-radius: 10px;
+    }
+    
+    100% {
+       margin-top: 10px;
+       margin-left: 192px;
+       border: 1px solid black;
+       border-radius: 10px;
+       width: 75%;
+       height: 60px;
+
+   }
+}
+
+@keyframes animationIcon {
+   0% {
+      width: 25px;
+    }
+    
+    50% {
+       width: 20px;
+    }
+    
+    100% {
+       width: 18px;
+   }
+}
