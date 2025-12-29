@@ -15,8 +15,8 @@ const SideBar = () => {
                 <h1 className="nameApp">Feedora</h1>
 
                 <div className="searchContent">
-                    <img src="src/assets/search.png" alt="search" />
-                    <input type="text"/>
+                    <img src="src/assets/search.png" alt="search"/>
+                    <input type="text" placeholder='Search Pengguna...' />
                 </div>
 
                 <div className="icon">

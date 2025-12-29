@@ -15,6 +15,7 @@ nav {
     animation-timeline: scroll();
     padding-right: 50px;
     font-family: "Poppins", sans-serif;
+    z-index: 99999;
 }
 
 nav .nameApp {
@@ -66,6 +67,72 @@ nav .icon button img {
     animation: animationIcon .2s ease-in-out;
     animation-timeline: scroll();
 }
+
+.CardContent {
+    display: grid;
+    grid-template-rows: 100px 500px 200px;
+    position: relative;
+    top: 120px;
+    left: 100px;
+    width: 500px;
+    height: 800px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 25px 0px black;
+}
+
+.CardContent .profil {
+    display: flex;
+    border-radius: 25px 25px 0px 0px;
+    background: white;
+    border: 1px solid black;
+}
+
+.CardContent .profil .PhotoProfil {
+    width: 50px;
+    height: 50px;
+    margin-top: 22px;
+    margin-left: 22px;
+    background-color: cyan;
+    border-radius: 50%;
+    background-image: url('src/assets/profil.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.CardContent .profil .username {
+    margin-top: 28px;
+    margin-left: 22px;
+}
+
+.CardContent .ContentImage {
+    background: green;
+    background-image: url("src/assets/postingan.jpg");
+    background-size:cover;
+    background-position: center;
+    border: 1px solid black;
+
+}
+
+.CardContent .caption {
+    border-radius: 0px 0px 25px 25px;
+    background: white;
+    border: 1px solid black;
+}
+
+.CardContent .caption .icon {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.CardContent .caption .icon img {
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+}
+
+
 
 @keyframes animationNav {
    0% {
