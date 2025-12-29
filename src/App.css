@@ -75,8 +75,8 @@ nav .icon button img {
     
     50% {
        margin-top: 10px;
-       margin-left: 192px;
-       width: 80%;
+       margin-left: 157px;
+       width: 85%;
        height: 60px;
        border: 1px solid black;
        border-radius: 10px;
@@ -84,10 +84,10 @@ nav .icon button img {
     
     100% {
        margin-top: 10px;
-       margin-left: 192px;
+       margin-left: 157px;
        border: 1px solid black;
        border-radius: 10px;
-       width: 75%;
+       width: 76%;
        height: 60px;
 
    }
